@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Bonheur+Royale&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    transition: all ease-in-out;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+#logo {
+    font-family: "Bonheur Royale", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+}
+
+.grid-stack {
+    grid-area: 1 / 1;
+}
+
+#overlay {
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    #overlay {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 576px) {
+    #overlay {
+        font-size: 1em;
+    }
+}
+
+.slim-text {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.icon-link {
+    width: 2em;
+    height: 2em;
+}
